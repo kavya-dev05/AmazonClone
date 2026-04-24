@@ -1,0 +1,569 @@
+*{
+    margin:0;
+    font-family: Arial,sans-serif;
+    border:border-box;
+}
+
+/* Header */
+
+.navbar{
+    height:60px;
+    background-color:#0F1111;
+    color:white;
+    display:flex; /*makes all div's inline*/
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+
+.logo{
+    background-image: url("Amazon-Logo.jpg");
+    background-size:cover;
+    height:50px;
+    width:100%;
+}
+
+.border{
+    border:2px solid transparent;
+}
+
+.border:hover{
+    border:2px solid white;
+}
+
+.navbar-address{
+    font-size: 0.85rem;
+    color:#cccccc;
+}
+
+.address-icon{
+    font-size:1rem;
+    color:white;
+    display:flex;
+}
+
+.address-text-one{
+    margin-left:20px;
+}
+
+.address-text-two{
+    margin-left:0;
+}
+
+.nav-search{
+    display:flex;
+    height:40px;
+    width:580px;
+}
+.search-icon{
+    height:22px;
+    width:25px;
+    padding:9px;
+    color:#0F1111;
+    background-color: rgb(177, 135, 8);
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.search-input{
+    width:500px;
+    font-size: 1rem;
+    border:none;
+
+}
+
+.nav-search:hover{
+    border:3px solid orange;
+}
+
+.search-select{
+    height: 40px;
+    width:38px;
+    border-radius: 2px;
+    border:none;
+    background-color: #cccccc;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+}
+
+.signin-hello{
+    font-size:.75rem;
+}
+
+.signin-Account{
+    background-color: #0F1111;
+}
+
+.nav-returns{
+    font-size: 0.7rem;
+}
+
+.nav-orders{
+    font-size:1rem;
+    font-weight: bolder;
+}
+
+.nav-cart-icon{
+    height:60px;
+    width:60px;
+    font-size: 25px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.nav-cart-text{
+    font-size:0.75rem;
+    font-weight: bolder;
+}
+
+.panel{
+    height:40px;
+    width:100%;
+    background-color:#222f3d;
+    display:flex;
+    color:#cccccc
+}
+
+.panel-menu-icon{
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.panel-anchor{
+    display:inline-block;
+    text-decoration:none;
+    color:#cccccc;
+    font-size:16px;
+    padding:10px;
+}
+
+.panel-anchor-div{
+    width:70%;
+}
+
+/*Hero Section*/
+
+.Hero-section{
+    height:600px;
+    background-image:url("Hero-Section.jpg");
+    background-size: cover;
+
+}
+
+.Hero-div{
+    height:40px;
+    width:90%;
+    font-size: 0.85rem;
+    background-color:#cccccc;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 75px;
+    position:relative;
+    top:43%;
+
+}
+
+.Hero-amazonin{
+    text-decoration:none;
+    color:#007185;
+}
+
+.box{
+    display:flex;
+    flex-wrap: wrap; /*It helps in making only 4 boxes in one line*/
+    justify-content: space-evenly;
+    position: relative;
+    top:280px;
+}
+
+.box-one{
+    height:400px;
+    width:314px;
+    background-color: white;
+    font-size:0.8rem;
+    padding-top:18px;
+    padding-left:15px;
+}
+
+.box-one-images{
+    height:125px;
+    width:125px;
+    background-image: url(Box-one-image-1.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+}
+
+.box-two-images{
+    height:125px;
+    width:125px;
+    background-image: url(Box-one-image-2.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+.box-three-images{
+    height:125px;
+    width:125px;
+    background-image: url(Box-one-image-3.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 0;
+}
+
+.box-four-images{
+    height:125px;
+    width:125px;
+    background-image: url(Box-one-image-4.jpg);
+    background-size:cover;
+    position: relative;
+    margin-left: 30px;
+}
+
+.box-one-images-div-one{
+    height:175px;
+    width:300px;
+    display: flex;
+}
+
+.box-one-images-div-two{
+    height:175px;
+    width:300px;
+    display: flex;
+}
+
+.box-two-images-div{
+    height:75%;
+    width:95%;
+    background-image:url(box-two-image.jpg);
+    background-size: cover;
+    position:relative;
+    margin-bottom:20px;
+    margin-top:10%;
+}
+
+.box-three-first-image{
+    height:125px;
+    width:125px;
+    background-image: url(box-three-image-1.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+}
+
+.box-three-second-image{
+    height:125px;
+    width:125px;
+    background-image: url(Box-three-image-2.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+.box-three-third-image{
+    height:125px;
+    width:125px;
+    background-image: url(Box-three-image-3.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 0;
+}
+
+.box-three-fourth-image{
+    height:125px;
+    width:125px;
+    background-image: url(Box-three-image-4.jpg);
+    background-size:cover;
+    position: relative;
+    margin-left: 30px;
+}
+
+.box-three-images-div-one{
+    height:175px;
+    width:300px;
+    display: flex;
+}
+
+.box-three-images-div-two{
+    height:175px;
+    width:300px;
+    display: flex;
+}
+
+.box-four-first-image{
+    height:125px;
+    width:125px;
+    background-image: url(box-four-image-1.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+}
+
+.box-four-second-image{
+    height:125px;
+    width:125px;
+    background-image: url(Box-four-image-2.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+.box-four-third-image{
+    height:125px;
+    width:125px;
+    background-image: url(Box-four-image-3.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 0;
+}
+
+.box-four-fourth-image{
+    height:125px;
+    width:125px;
+    background-image: url(Box-four-image-4.jpg);
+    background-size:cover;
+    position: relative;
+    margin-left: 30px;
+}
+
+.box-four-images-div-one{
+    height:175px;
+    width:300px;
+    display: flex;
+}
+
+.box-four-images-div-two{
+    height:175px;
+    width:300px;
+    display: flex;
+}
+
+.box-one-images-2{
+    height:125px;
+    width:125px;
+    background-image: url(Box-five-image-1.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+}
+
+.box-two-images-2{
+    height:125px;
+    width:125px;
+    background-image: url(Box-five-image-2.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+.box-three-images-2{
+    height:125px;
+    width:125px;
+    background-image: url(Box-five-image-3.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 0;
+}
+
+.box-four-images-2{
+    height:125px;
+    width:125px;
+    background-image: url(Box-five-image-4.jpg);
+    background-size:cover;
+    position: relative;
+    margin-left: 30px;
+}
+
+.box-two-first-image-2{
+    height:125px;
+    width:125px;
+    background-image: url(box-six-image-1.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+}
+
+.box-two-second-image-2{
+    height:125px;
+    width:125px;
+    background-image: url(Box-six-image-2.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+.box-two-third-image-2{
+    height:125px;
+    width:125px;
+    background-image: url(Box-six-image-3.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 0;
+}
+
+.box-two-fourth-image-2{
+    height:125px;
+    width:125px;
+    background-image: url(Box-six-image-4.jpg);
+    background-size:cover;
+    position: relative;
+    margin-left: 30px;
+}
+
+.box-three-first-image-2{
+    height:125px;
+    width:125px;
+    background-image: url(box-seven-image-1.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+}
+
+.box-three-second-image-2{
+    height:125px;
+    width:125px;
+    background-image: url(Box-seven-image-2.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+.box-three-third-image-2{
+    height:125px;
+    width:125px;
+    background-image: url(Box-seven-image-3.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 0;
+}
+
+.box-three-fourth-image-2{
+    height:125px;
+    width:125px;
+    background-image: url(Box-seven-image-4.jpg);
+    background-size:cover;
+    position: relative;
+    margin-left: 30px;
+}
+
+.box-four-first-image-2{
+    height:125px;
+    width:125px;
+    background-image: url(box-eight-image-1.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+}
+
+.box-four-second-image-2{
+    height:125px;
+    width:125px;
+    background-image: url(Box-eight-image-2.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 30px;
+}
+
+.box-four-third-image-2{
+    height:125px;
+    width:125px;
+    background-image: url(Box-eight-image-3.jpg);
+    background-size:cover;
+    position: relative;
+    margin-top: 0;
+}
+
+.box-four-fourth-image-2{
+    height:125px;
+    width:125px;
+    background-image: url(Box-eight-image-4.jpg);
+    background-size:cover;
+    position: relative;
+    margin-left: 30px;
+}
+
+/*Footer*/
+.foot-panel1{
+    height:50px;
+    background-color:#37475a;
+    color:aliceblue;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 0.85rem;
+    margin-top:560px;
+}
+
+.foot-panel2{
+    background-color: #222f3d;
+    color:#cccccc;
+    height:380px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+ul a{
+    display:block;
+    padding:3px;
+    font-size:0.8rem;
+    margin-top:5px;
+    color:#ddddddda;
+}
+
+ul{
+    margin-top:30px;
+}
+
+.foot-panel3{
+    background-color: #222f3d;
+    height:90px;
+    margin-top:1px;
+    display:flex;
+}
+
+.foot-panel3-logo{
+    height:50px;
+    width:90px;
+    background-image: url("Amazon-Logo.jpg");
+    background-size:contain;
+    margin-top:18px;
+    margin-right:150px;
+    margin-left:375px;
+}
+
+.foot-panel3-lanuage{
+    height: 25px;
+    width:132px;
+    border:1px solid white;
+    color:white;
+    display: flex;
+    font-size:0.75rem;
+    margin-top:18px;
+    margin-left:10px;
+    padding:10px;
+    border-radius:3px;
+}
+
+.foot-panel3-lanuage-logo{
+    padding: 10px;
+}
+
+.foot-panel3-lanuage-text{
+    margin-top:10px;
+}
