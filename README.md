@@ -126,7 +126,7 @@ Building a real-world interface from scratch forced me to think like a UI engine
 
 ## &nbsp;Author
 
-**Kavya Kesarwani** &nbsp;—&nbsp; B.Tech Computer Science · 3rd Semester · PSIT, Kanpur
+**Kavya Kesarwani** &nbsp;—&nbsp; B.Tech Information Technology · 3rd Semester · PSIT, Kanpur
 
 <p>
   <a href="https://github.com/kavya-dev05">
