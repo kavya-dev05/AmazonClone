@@ -10,6 +10,7 @@
   <p>
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/Deployed-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white" alt="Netlify" />
     <img src="https://img.shields.io/badge/Status-Complete-22c55e?style=flat-square" alt="Status" />
     <img src="https://img.shields.io/badge/Semester-3rd-FF9900?style=flat-square" alt="Semester" />
   </p>
@@ -33,20 +34,19 @@
 
 A front-end clone of the Amazon e-commerce platform, built entirely from scratch using **HTML5** and **CSS3**. No libraries. No frameworks. No shortcuts.
 
-Developed during my **3rd semester of B.Tech**, this was an exercise in reverse-engineering a world-class UI — understanding layout systems, visual hierarchy, spacing, and how real product interfaces are constructed under the hood.
+Developed during my **3rd semester of B.Tech at PSIT, Kanpur**, this was an exercise in reverse-engineering a world-class UI — understanding layout systems, visual hierarchy, spacing, and how real product interfaces are constructed under the hood.
+
+🌐 **Live:** [amazonshoppingapp-clone.netlify.app](https://amazonshoppingapp-clone.netlify.app)
 
 <br />
 
 ## &nbsp;Demo
 
-> Drop a screenshot or screen recording of your project below.
+<img src="preview1.png" alt="Amazon Clone — Homepage" width="100%" style="border-radius: 8px;" />
 
-```
-[ Screenshot / GIF Preview Here ]
-```
+<br />
 
-<!-- Uncomment after adding your image: -->
-<!-- ![Preview](./assets/screenshots/preview.png) -->
+<img src="preview2.png" alt="Amazon Clone — Product Grid & Footer" width="100%" style="border-radius: 8px;" />
 
 <br />
 
@@ -55,9 +55,10 @@ Developed during my **3rd semester of B.Tech**, this was an exercise in reverse-
 | Section | Description |
 |---|---|
 | **Navigation Bar** | Sticky header with logo, search bar, location picker, account menu, and cart |
-| **Hero Banner** | Full-width promotional banner strip |
-| **Product Grid** | Category cards arranged in a responsive multi-column Flexbox layout |
+| **Hero Banner** | Full-width promotional banner — Kitchen Essentials, Under $50 |
+| **Product Grid** | Category cards (Fashion, Gaming, Home, Beauty, Tech, Watches) in a Flexbox layout |
 | **Footer** | Multi-column footer with grouped links and a back-to-top bar |
+| **Bottom Bar** | Language, currency, and country selectors — just like the real Amazon |
 
 **UI Details**
 - Amazon's authentic color tokens — `#131921` navy · `#FF9900` orange · `#FEBD69` hover accent
@@ -81,7 +82,7 @@ No build tools. No package manager. Open `index.html` and it runs.
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/amazon-clone.git
+git clone https://github.com/kavya-dev05/amazon-clone.git
 
 # 2. Move into the project folder
 cd amazon-clone
@@ -95,7 +96,7 @@ xdg-open index.html
 start index.html
 ```
 
-Or download the ZIP, extract it, and double-click `index.html` — no setup required.
+Or visit the live deployment directly → [amazonshoppingapp-clone.netlify.app](https://amazonshoppingapp-clone.netlify.app)
 
 <br />
 
@@ -125,15 +126,15 @@ Building a real-world interface from scratch forced me to think like a UI engine
 
 ## &nbsp;Author
 
-**Kavya Kesarwani** &nbsp;—&nbsp; B.Tech Computer Science · 3rd Semester · PSIT , Kanpur
+**Kavya Kesarwani** &nbsp;—&nbsp; B.Tech Computer Science · 3rd Semester · PSIT, Kanpur
 
 <p>
-  <a href="[https://github.com/your-username](https://github.com/kavya-dev05)">
-    <img src="https://img.shields.io/badge/GitHub-your--username-181717?style=flat-square&logo=github" alt="GitHub" />
+  <a href="https://github.com/kavya-dev05">
+    <img src="https://img.shields.io/badge/GitHub-kavya--dev05-181717?style=flat-square&logo=github" alt="GitHub" />
   </a>
   &nbsp;
-  <a href="[https://linkedin.com/in/your-profile](https://www.linkedin.com/in/kavya-kesarwani-9143a4306/)">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/kavya-kesarwani-9143a4306/">
+    <img src="https://img.shields.io/badge/LinkedIn-Kavya%20Kesarwani-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn" />
   </a>
 </p>
 
