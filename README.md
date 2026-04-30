@@ -1,131 +1,147 @@
 <div align="center">
+  <br />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" width="120" alt="Amazon" />
+  <br /><br />
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo" width="140px" />
+  <h1>Amazon Clone</h1>
 
-<br/>
+  <p>A faithful front-end recreation of Amazon's homepage —<br/>hand-crafted with semantic HTML5 and CSS3, zero dependencies.</p>
 
-# 🛒 Amazon Clone
+  <p>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+    <img src="https://img.shields.io/badge/Status-Complete-22c55e?style=flat-square" alt="Status" />
+    <img src="https://img.shields.io/badge/Semester-3rd-FF9900?style=flat-square" alt="Semester" />
+  </p>
 
-**A pixel-perfect front-end replica of Amazon — built with pure HTML & CSS**
+  <br />
 
-[![Made with HTML](https://img.shields.io/badge/Made%20with-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![Styled with CSS](https://img.shields.io/badge/Styled%20with-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![College Project](https://img.shields.io/badge/College-3rd%20Semester-FF9900?style=for-the-badge&logo=academia&logoColor=white)]()
-[![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)]()
+  <a href="#-demo">Demo</a> &nbsp;·&nbsp;
+  <a href="#-features">Features</a> &nbsp;·&nbsp;
+  <a href="#-getting-started">Getting Started</a> &nbsp;·&nbsp;
+  <a href="#-structure">Structure</a> &nbsp;·&nbsp;
+  <a href="#-learnings">Learnings</a>
 
-<br/>
+  <br /><br />
 
-*Crafted from scratch during my 3rd semester — no frameworks, no shortcuts, just raw HTML & CSS.*
-
----
-
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
 </div>
 
-## ✨ Overview
+<br />
 
-This project is a **front-end clone of the Amazon website**, built entirely using **HTML5** and **CSS3** — no JavaScript frameworks, no external UI libraries, just the fundamentals. It was developed as part of my 3rd semester coursework and reflects my early understanding of web layout, design systems, and responsive UI.
+## &nbsp;Overview
 
-The goal was simple: study the world's most recognizable e-commerce interface and rebuild it from the ground up, understanding every pixel along the way.
+A front-end clone of the Amazon e-commerce platform, built entirely from scratch using **HTML5** and **CSS3**. No libraries. No frameworks. No shortcuts.
 
----
+Developed during my **3rd semester of B.Tech**, this was an exercise in reverse-engineering a world-class UI — understanding layout systems, visual hierarchy, spacing, and how real product interfaces are constructed under the hood.
 
-## 🖼️ Features
+<br />
 
-- 🔝 **Sticky Navigation Bar** — Full Amazon-style header with search bar, cart icon, and account links
-- 🎠 **Hero Banner Section** — Eye-catching promotional banners similar to Amazon's homepage
-- 🗂️ **Product Category Grid** — Multi-column card layout showcasing various product categories
-- 🦶 **Footer** — Multi-column informational footer with links, just like the real deal
-- 🎨 **Amazon Color Palette** — Uses Amazon's iconic `#131921` (dark navy), `#FF9900` (orange), and clean whites
-- 📐 **CSS Flexbox Layouts** — Used extensively for alignment and responsive-friendly structure
-- 🧱 **Box Model Mastery** — Careful use of margins, padding, and borders throughout
+## &nbsp;Demo
 
----
-
-## 🛠️ Tech Stack
-
-| Technology | Usage |
-|:----------:|:------:|
-| **HTML5** | Page structure, semantic elements |
-| **CSS3** | Styling, Flexbox layout, hover effects |
-
-> No JavaScript. No frameworks. Pure web fundamentals — the way it was meant to be learned. 💪
-
----
-
-## 📁 Project Structure
+> Drop a screenshot or screen recording of your project below.
 
 ```
-amazon-clone/
-│
-├── index.html          # Main homepage
-├── style.css           # All styling in one place
-│
-└── assets/
-    └── images/         # Product & banner images
+[ Screenshot / GIF Preview Here ]
 ```
 
----
+<!-- Uncomment after adding your image: -->
+<!-- ![Preview](./assets/screenshots/preview.png) -->
 
-## 🚀 Getting Started
+<br />
 
-No installations needed. Just clone and open.
+## &nbsp;Features
+
+| Section | Description |
+|---|---|
+| **Navigation Bar** | Sticky header with logo, search bar, location picker, account menu, and cart |
+| **Hero Banner** | Full-width promotional banner strip |
+| **Product Grid** | Category cards arranged in a responsive multi-column Flexbox layout |
+| **Footer** | Multi-column footer with grouped links and a back-to-top bar |
+
+**UI Details**
+- Amazon's authentic color tokens — `#131921` navy · `#FF9900` orange · `#FEBD69` hover accent
+- Hover states and cursor interactions across all interactive elements
+- Consistent spacing scale and visual rhythm throughout the page
+
+<br />
+
+## &nbsp;Tech Stack
+
+```
+HTML5   →  Semantic markup, page structure, accessibility attributes
+CSS3    →  Flexbox layouts, hover transitions, custom properties
+```
+
+No build tools. No package manager. Open `index.html` and it runs.
+
+<br />
+
+## &nbsp;Getting Started
 
 ```bash
 # 1. Clone the repository
 git clone https://github.com/your-username/amazon-clone.git
 
-# 2. Navigate into the folder
+# 2. Move into the project folder
 cd amazon-clone
 
 # 3. Open in your browser
+#    macOS
 open index.html
+#    Linux
+xdg-open index.html
+#    Windows
+start index.html
 ```
 
-Or simply **download the ZIP**, extract it, and double-click `index.html`. That's it! 🎉
+Or download the ZIP, extract it, and double-click `index.html` — no setup required.
 
----
+<br />
 
-## 📸 Preview
-
-> *Add a screenshot of your project here by replacing the placeholder below*
+## &nbsp;Structure
 
 ```
-📷 Screenshot coming soon — drop your project preview here!
+amazon-clone/
+├── index.html              # Entry point
+├── style.css               # All styles — layout, components, utilities
+└── assets/
+    └── images/             # Banners, product thumbnails, icons
 ```
 
-<!-- Replace with: ![Amazon Clone Preview](./assets/screenshots/preview.png) -->
+<br />
 
----
+## &nbsp;Learnings
 
-## 🧠 What I Learned
+Building a real-world interface from scratch forced me to think like a UI engineer, not just a student. Key takeaways:
 
-Building this project gave me hands-on experience with:
+- **Flexbox in practice** — nested, multi-directional layouts beyond what tutorials show
+- **Visual decomposition** — breaking a complex page into logical, buildable sections
+- **CSS specificity** — managing styles across a growing stylesheet without conflicts
+- **Semantic HTML** — writing markup that is readable, structured, and meaningful
+- **Attention to detail** — matching spacing, alignment, and color to a pixel-accurate reference
 
-- Writing **semantic HTML** for better readability and structure
-- Using **CSS Flexbox** to create complex, real-world layouts
-- Understanding the **CSS Box Model** at a deep level
-- Replicating a **professional UI** by breaking it down visually
-- Managing a **multi-file project** with organized assets
+<br />
 
----
+## &nbsp;Author
 
-## 🙋‍♂️ About
+**[Your Name]** &nbsp;—&nbsp; B.Tech Computer Science · 3rd Semester · [Your College]
 
-Made with ❤️ and a lot of `Ctrl+Shift+I` by a 3rd semester CS student who refused to use `<table>` for layouts.
+<p>
+  <a href="https://github.com/your-username">
+    <img src="https://img.shields.io/badge/GitHub-your--username-181717?style=flat-square&logo=github" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="https://linkedin.com/in/your-profile">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn" />
+  </a>
+</p>
 
-> *"Every expert was once a beginner."*
-> The Amazon clone is where my front-end journey truly began.
-
----
+<br />
 
 <div align="center">
-
-**⭐ If you liked this project, consider giving it a star!**
-
-[![GitHub stars](https://img.shields.io/github/stars/your-username/amazon-clone?style=social)](https://github.com/your-username/amazon-clone)
-
-<br/>
-
-*Built during 3rd Semester · B.Tech Computer Science · [Your College Name]*
-
+  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" />
+  <br /><br />
+  <sub>Found this useful? A ⭐ goes a long way.</sub>
+  <br /><br />
 </div>
