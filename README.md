@@ -125,14 +125,14 @@ Building a real-world interface from scratch forced me to think like a UI engine
 
 ## &nbsp;Author
 
-**[Your Name]** &nbsp;—&nbsp; B.Tech Computer Science · 3rd Semester · [Your College]
+**Kavya Kesarwani** &nbsp;—&nbsp; B.Tech Computer Science · 3rd Semester · PSIT , Kanpur
 
 <p>
-  <a href="https://github.com/your-username">
+  <a href="[https://github.com/your-username](https://github.com/kavya-dev05)">
     <img src="https://img.shields.io/badge/GitHub-your--username-181717?style=flat-square&logo=github" alt="GitHub" />
   </a>
   &nbsp;
-  <a href="https://linkedin.com/in/your-profile">
+  <a href="[https://linkedin.com/in/your-profile](https://www.linkedin.com/in/kavya-kesarwani-9143a4306/)">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin" alt="LinkedIn" />
   </a>
 </p>
